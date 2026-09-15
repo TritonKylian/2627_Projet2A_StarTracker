@@ -25,7 +25,7 @@ Projet de 2ème année sur un suiveur d'étoile pour faire de l'astrophotographi
 
 
 ## Organisation du projet
-<img width="1267" height="402" alt="Diagramme sans nom-Page-3 drawio" src="https://github.com/user-attachments/assets/1a2738eb-56e3-4d66-be5d-6a3d92be61c0" />
+<img width="1299" height="452" alt="image" src="https://github.com/user-attachments/assets/c0a08c1a-c247-4129-955b-413970d35b3d" />
 
 *Schéma global*
 
