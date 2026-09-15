@@ -36,7 +36,7 @@ recuperer la photo avec un cable usb
 
 ## Schéma global du système
 
-<img width="1267" height="392" alt="Diagramme sans nom-Page-3 drawio (1)" src="https://github.com/user-attachments/assets/4a521e9e-51be-4dd7-802b-591467908376" />
+<img width="1299" height="452" alt="image" src="https://github.com/user-attachments/assets/7acd2e61-1e72-464c-9d06-b2ace2dbbab9" />
 
 
 ## Tâches :
