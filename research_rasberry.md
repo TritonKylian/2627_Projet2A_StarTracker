@@ -25,3 +25,21 @@ Attention à la gestion du temps réel pour 3 moteurs pas à pas
 Le système d'exploitation Raspberry Pi OS n'est pas un système temps réel (RTOS). Générer des impulsions PWM/Step directement depuis Linux pour 3 moteurs pas à pas simultanément peut provoquer des micro-saccades qui flouteront la prise de vue. Il est fortement recommandé d'ajouter un microcontrôleur intermédiaire (ex: Arduino Nano ou Raspberry Pi Pico) connecté en USB/Série à la Pi principal pour piloter les drivers de moteurs de manière fluide.
 
 
+
+L'architecture classique consiste à coupler deux puces Raspberry Pi. Cette solution reste la plus flexible et la moins chère (~4 € pour le microcontrôleur) :
+
+```
+[ Raspberry Pi 4 / 5 ]  <--- Câble USB (Série) --->  [ Raspberry Pi Pico ]
+(Exécute le code Python,                            (Reçoit les vitesses/angles,
+ Serveur Web, Calculs d'étoiles)                      Génère des impulsions moteurs)
+
+```
+
+**Fonctionnement de ce duo :**
+
+1. **Raspberry Pi (SBC) :** Reçoit les ordres du téléphone, calcule les coordonnées d'astronomie (calculs lourds en Python) et envoie des commandes simples en USB/Série (ex: `MOVE_AZ 120 SPEED 1.5`).
+2. **Raspberry Pi Pico (Microcontrôleur) :** Exécute un petit script C++ ou MicroPython qui gère l'accéléromètre et envoie les impulsions Step/Dir aux drivers de moteurs pas à pas sans aucun retard.
+
+---
+
+
