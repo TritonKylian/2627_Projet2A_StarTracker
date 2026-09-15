@@ -5,13 +5,13 @@
 lien utile : https://wiki.openastrotech.com/OpenAstroTracker?fbclid=PARlRTSASfdwVleHRuA2FlbQIxMABzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAadvZ97G8UxoVBNb6yF2YV2TA-p9tFaySTwUSeoviNoFVP3lmXYda9JuVb-8XQ\_aem\_y930qqPCMkbocdRs-umUJw
 
 
-## **Cahier des charges** 
-### Fonctions principales
+ **Cahier des charges** 
+ *Fonctions principales*
 - stabiliser l'appareil photo
 - repérer et suivre les étoiles ou constellations
 
 
-# notes
+**notes discussion avecc les profs**
 pas de traitement d'image
 
 juste tracking
@@ -26,10 +26,10 @@ connexion internet pour recuperer une base de données d'étaoiles (utiliser une
 
 recuperer la position et l'incclinison ( accéléromettrre)
 
-### pour aller plus loin :
+**si on a le temps** :
 recuperer la photo avec un cable usb
 
-# objectif :
+# objectifs :
 - faire la base méca surtout : recupere les bases sur intenret
 - plus important  c'est l'elec donc on est rapide et efficace sur la méca  
 - determiner quel couple/viteesse et precision on veut
