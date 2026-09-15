@@ -29,7 +29,7 @@ recuperer la position et l'incclinison ( accéléromettrre)
 **si on a le temps** :
 recuperer la photo avec un cable usb
 
-# objectifs :
+## objectifs :
 - faire la base méca surtout : recupere les bases sur intenret
 - plus important  c'est l'elec donc on est rapide et efficace sur la méca  
 - determiner quel couple/viteesse et precision on veut
