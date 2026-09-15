@@ -24,6 +24,8 @@ moteur puissant pour tenir les 3-4Kg de l'appareil
 
 connexion internet pour recuperer une base de données d'étaoiles (utiliser une rasberry)
 
+recuperer la position et l'incclinison ( accéléromettrre)
+
 ### pour aller plus loin :
 recuperer la photo avec un cable usb
 
