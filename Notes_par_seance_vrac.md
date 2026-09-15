@@ -38,3 +38,13 @@ recuperer la photo avec un cable usb
 
 <img width="1267" height="402" alt="Diagramme sans nom-Page-3 drawio" src="https://github.com/user-attachments/assets/014a35a7-e178-40b4-bf10-874cd60f2143" />
 
+## Tâches :
+- représentation 3D et méca
+- choisir des moteurs
+- choisir des drivers
+- determiner la poids de l'appareil + téléobjectif
+- choisir la rasberry
+- trouver la base de donnée optimale
+- choisir l'accéléromètre
+- determiner quel couple/viteesse et precision on veut
+
