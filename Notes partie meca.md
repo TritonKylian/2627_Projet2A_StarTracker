@@ -9,3 +9,6 @@ connexion internet pour recuperer une base de données d'étaoiles (utiliser une
 recuperer la position et l'incclinison ( accéléromettrre)
 
 Fichier opensource sur un trackeur d'étoile
+
+
+git source : https://github.com/OpenAstroTech/OpenAstroTracker/tree/master/STL
