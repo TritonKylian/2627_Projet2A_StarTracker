@@ -36,15 +36,24 @@ recuperer la photo avec un cable usb
 
 ## Schéma global du système
 
-<img width="1267" height="402" alt="Diagramme sans nom-Page-3 drawio" src="https://github.com/user-attachments/assets/014a35a7-e178-40b4-bf10-874cd60f2143" />
+<img width="1267" height="392" alt="Diagramme sans nom-Page-3 drawio (1)" src="https://github.com/user-attachments/assets/4a521e9e-51be-4dd7-802b-591467908376" />
+
 
 ## Tâches :
-- représentation 3D et méca
-- choisir des moteurs
+  ### Mécanique et automatique
+1- determiner la poids de l'appareil + téléobjectif
+2- déterminer puissance/couple/vitesse/précision nécessaire (à noter dans le cahier des charges)
+3- choisir des moteurs
+
+### Electronique
 - choisir des drivers
-- determiner la poids de l'appareil + téléobjectif
+- choisir l'accéléromètre
+
+### Software
 - choisir la rasberry
 - trouver la base de donnée optimale
-- choisir l'accéléromètre
-- determiner quel couple/viteesse et precision on veut
+- trouver quel interface utiliser
+- trouver comment déterminer la position voulue 
+
+
 
