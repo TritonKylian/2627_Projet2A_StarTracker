@@ -42,7 +42,9 @@ recuperer la photo avec un cable usb
 ## Tâches :
   ### Mécanique et automatique
 1- determiner la poids de l'appareil + téléobjectif
+
 2- déterminer puissance/couple/vitesse/précision nécessaire (à noter dans le cahier des charges)
+
 3- choisir des moteurs
 
 ### Electronique
@@ -53,7 +55,8 @@ recuperer la photo avec un cable usb
 - choisir la rasberry
 - trouver la base de donnée optimale
 - trouver quel interface utiliser
-- trouver comment déterminer la position voulue 
+- trouver comment déterminer la position voulue
+- trouver comment commander les moteurs pour avoir la bonne position
 
 
 
