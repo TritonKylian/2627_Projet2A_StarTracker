@@ -34,3 +34,7 @@ recuperer la photo avec un cable usb
 - plus important  c'est l'elec donc on est rapide et efficace sur la méca  
 - determiner quel couple/viteesse et precision on veut
 
+## Schéma global du système
+
+<img width="1267" height="402" alt="Diagramme sans nom-Page-3 drawio" src="https://github.com/user-attachments/assets/014a35a7-e178-40b4-bf10-874cd60f2143" />
+
