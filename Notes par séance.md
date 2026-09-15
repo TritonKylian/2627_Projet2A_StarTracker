@@ -13,10 +13,15 @@ lien utile : https://wiki.openastrotech.com/OpenAstroTracker?fbclid=PARlRTSASfdw
 
 # notes
 pas de traitement d'image
+
 juste tracking
+
 3 axes de roation donc 3 moteurs, bien démultipliés pour être précis (X200 par ex, on veut environ 1milidegré)
+
 asservissement en position et inclinatison (moteurs pas à pas et driver de moteur)
+
 moteur puissant pour tenir les 3-4Kg de l'appareil
+
 connexion internet pour recuperer une base de données d'étaoiles (utiliser une rasberry)
 
 ### pour aller plus loin :
