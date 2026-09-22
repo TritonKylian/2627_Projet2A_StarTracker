@@ -8,6 +8,7 @@ Electronics:
 - 1x 5.1mm DC Jack
 - 1x USB 5-12V booster cable
 - 1x USB B cable
+- Rasberri PI 5 (Dans les mains de kylian)
 
   Mechanics:
 - 4x 6001 bearing (roulement)
