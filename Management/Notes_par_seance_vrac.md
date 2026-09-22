@@ -74,7 +74,7 @@ Explications : oui avec la rasberry on va avoir un "djiter" (jsp comment ça s'�
 ## pour la prochaine fois
 -> savoir qu'est ce qu'on commande et comment pour la méca et elec => Matéo + Athénaïs 
 
--> prendre en main le fonctionnement de la rasberry  => Emilie
+-> prendre en main la rasberry et determiner comment lui faire réaliser ses tâches  => Emilie
 
 -> Calcul de suivi sidéral + calcul de rotation des moteur pour orienter l'appareil photo => Kylian
 
