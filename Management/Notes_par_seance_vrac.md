@@ -62,11 +62,15 @@ recuperer la photo avec un cable usb
 présentation
 lien slide : https://docs.google.com/presentation/d/1jDtzcRe_vpuc2h7Jv-1z3r2-y8FQ_S0EBHMQRIcyUqQ/edit?hl=fr&slide=id.g3fbd56af096_0_0#slide=id.g3fbd56af096_0_0
 
-commentaires des profs : enlever le microcontrolleur car pas besoin d'être aussi précis, la rasberry peut envoyer les PWM aux driver directement.
+### commentaires des profs : 
+- enlever le microcontrolleur car pas besoin d'être aussi précis, la rasberry peut envoyer les PWM aux driver directement.
 Explications : oui avec la rasberry on va avoir un "djiter" (jsp comment ça s'écrit) sur les PWM (une imprécisiion sur les fronts montants) mais on veut bouger nos moteurs à une fréquenc etellemnt lente que ça changera rien. 
 
+- l'interface sur téléphone peut être une page web implémentée sur la rasberry
+  
 *Nouveau diagramme* :
-<img width="1076" height="459" alt="image" src="https://github.com/user-attachments/assets/8031e228-e24c-426b-aedd-df9e4b6522f5" />
+<img width="1076" height="459" alt="image" src="https://github.com/user-attachments/assets/eb51de5c-801e-4fdb-a209-888a6ac2000d" />
+
 
 
 
