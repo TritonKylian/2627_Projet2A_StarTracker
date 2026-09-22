@@ -58,5 +58,9 @@ recuperer la photo avec un cable usb
 - trouver comment déterminer la position voulue
 - trouver comment commander les moteurs pour avoir la bonne position
 
+# Séance 1 22/09
+présentation
+lien slide : https://docs.google.com/presentation/d/1jDtzcRe_vpuc2h7Jv-1z3r2-y8FQ_S0EBHMQRIcyUqQ/edit?hl=fr&slide=id.g3fbd56af096_0_0#slide=id.g3fbd56af096_0_0
 
+commentaires des profs : enlever le microcontrolleur car pas besoin d'être aussi précis, la rasberry peut envoyer les PWM aux driver directement.
 
