@@ -1,3 +1,5 @@
+Truc : https://docs.google.com/spreadsheets/d/1S7A7iWPdf7mQ_QN7HivESLILTEPNuRH_zRXPpG9LOjA/edit?usp=sharing
+
 Electronics:
 
 - 2x NEMA17 - moteur
