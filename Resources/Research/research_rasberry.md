@@ -1,10 +1,9 @@
 
-**Choix de la Raspberry Pi**
+## Recherches gemini
 
 * **Raspberry Pi 4 (2 Go ou 4 Go) / Raspberry Pi 5 :** Choix recommandé. Le calcul de la position des astres et la gestion de la base de données nécessitent un processeur à l'aise avec Python.
-* **Raspberry Pi Zero 2 W :** Possible pour réduire la consommation électrique sur batterie, mais la compilation de certaines bibliothèques d'astronomie et la réactivité du serveur web seront plus lentes.
+~~* **Raspberry Pi Zero 2 W :** Possible pour réduire la consommation électrique sur batterie, mais la compilation de certaines bibliothèques d'astronomie et la réactivité du serveur web seront plus lentes.~~
 
----
 
 **Architecture de l'interface utilisateur**
 
@@ -13,7 +12,6 @@ La méthode la plus simple sans développer d'application mobile native (iOS/And
 1. **Backend (Raspberry Pi):** Python / Flask or FastAPII.
 Créez un serveur HTTP en Python (Flask ou FastAPI). Il gère la communication avec la base de données d'étoiles, la lecture I2C/SPI de l'accéléromètre et l'envoi des commandes de vitesse/position aux drivers moteurs via les broches GPIO.
 
-
 2. **Frontend (Téléphone):** HTML / CSS / JavaScript.
 Concevez une page web réactive (HTML/JS avec Fetch API ou WebSockets). L'utilisateur sélectionne l'astre désiré dans une liste ou une recherche, puis envoie la consigne au backend.
 
@@ -21,30 +19,12 @@ Concevez une page web réactive (HTML/JS avec Fetch API ou WebSockets). L'utilis
 3. **Point d'accès Wi-Fi:** Configuration Hostapd.
 Configurez la Raspberry Pi en point d'accès Wi-Fi autonome (`hostapd` / `dnsmasq`) pour pouvoir connecter le téléphone directement sur le terrain, sans avoir besoin d'un routeur externe.
 
-Attention à la gestion du temps réel pour 3 moteurs pas à pas
-Le système d'exploitation Raspberry Pi OS n'est pas un système temps réel (RTOS). Générer des impulsions PWM/Step directement depuis Linux pour 3 moteurs pas à pas simultanément peut provoquer des micro-saccades qui flouteront la prise de vue. Il est fortement recommandé d'ajouter un microcontrôleur intermédiaire (ex: Arduino Nano ou Raspberry Pi Pico) connecté en USB/Série à la Pi principal pour piloter les drivers de moteurs de manière fluide.
+~~Attention à la gestion du temps réel pour 3 moteurs pas à pas~~
+~~Le système d'exploitation Raspberry Pi OS n'est pas un système temps réel (RTOS). Générer des impulsions PWM/Step directement depuis Linux pour 3 moteurs pas à pas simultanément peut provoquer des micro-saccades qui flouteront la prise de vue. Il est fortement recommandé d'ajouter un microcontrôleur intermédiaire (ex: Arduino Nano ou Raspberry Pi Pico) connecté en USB/Série à la Pi principal pour piloter les drivers de moteurs de manière fluide.~~
 
 
 
-L'architecture classique consiste à coupler deux puces Raspberry Pi. Cette solution reste la plus flexible et la moins chère (~4 € pour le microcontrôleur) :
-
-```
-[ Raspberry Pi 4 / 5 ]  <--- Câble USB (Série) --->  [ Raspberry Pi Pico ]
-(Exécute le code Python,                            (Reçoit les vitesses/angles,
- Serveur Web, Calculs d'étoiles)                      Génère des impulsions moteurs)
-
-```
-
-**Fonctionnement de ce duo :**
-
-1. **Raspberry Pi (SBC) :** Reçoit les ordres du téléphone, calcule les coordonnées d'astronomie (calculs lourds en Python) et envoie des commandes simples en USB/Série (ex: `MOVE_AZ 120 SPEED 1.5`).
-2. **Raspberry Pi Pico (Microcontrôleur) :** Exécute un petit script C++ ou MicroPython qui gère l'accéléromètre et envoie les impulsions Step/Dir aux drivers de moteurs pas à pas sans aucun retard.
-
----
-
-
-###
-**Tâches de la Rasberry** :
+## Tâches de la Rasberry :
 - récupérer la base de données d'étoile => installer astroberry sur la rasberry
 - gérer la connexion wifi
 - gérer la base web interface avec le téléphone
