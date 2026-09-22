@@ -71,6 +71,10 @@ Explications : oui avec la rasberry on va avoir un "djiter" (jsp comment ça s'�
 *Nouveau diagramme* :
 <img width="1076" height="459" alt="image" src="https://github.com/user-attachments/assets/eb51de5c-801e-4fdb-a209-888a6ac2000d" />
 
+### pour la prochaine fois
+-> savoir qu'est ce qu'on commande et comment pour la méca et elec => Matéo + Athénaïs 
+-> prendre en main le fonctionnement de la rasberry  => Emilie
+-> Calcul de suivi sidéral + calcul de rotation des moteur pour orienter l'appareil photo => Kylian
 
 
 
