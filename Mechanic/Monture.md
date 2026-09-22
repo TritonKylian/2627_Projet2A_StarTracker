@@ -1,6 +1,6 @@
 Electronics:
 
-- 2x NEMA17
+- 2x NEMA17 - moteur
 - 1x MKS Gen L 2.1 -> Arduiono donc NON !
 - 2x Bigtreetech TMC2209 1.2 -> driver moteur
 - 1x LCD shield -> écran led arduino donc NON !
