@@ -45,7 +45,7 @@ L'architecture classique consiste à coupler deux puces Raspberry Pi. Cette solu
 
 ###
 **Tâches de la Rasberry** :
-- récupérer la base de données d'étoile
+- récupérer la base de données d'étoile => installer astroberry sur la rasberry
 - gérer la connexion wifi
 - gérer la base web interface avec le téléphone
 - recevoir et traiter les consignes données par le téléphone
