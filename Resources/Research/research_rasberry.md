@@ -43,3 +43,14 @@ L'architecture classique consiste à coupler deux puces Raspberry Pi. Cette solu
 ---
 
 
+###
+**Tâches de la Rasberry** :
+- récupérer la base de données d'étoile
+- gérer la connexion wifi
+- gérer la base web interface avec le téléphone
+- recevoir et traiter les consignes données par le téléphone
+- récupérer les mesures de l'accélérometre
+- calculer la position/orientation de l'appareil photo
+- calculer la position/orientation demandée
+- envoyer la consigne PWM aux drivers
+
