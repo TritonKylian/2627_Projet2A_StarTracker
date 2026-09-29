@@ -3,19 +3,20 @@
     KT : Kylian Triton
     EB : Emilie Bouche
     AB : Athénaïs Ballard
-    ML : Matéo Liotta test  -->
+    ML : Matéo Liotta  -->
 
 ### 1ère séance : 15/09/26
-* **KT** : 
-* **EB** : 
-* **AB** : 
-* **ML** : 
+ Présentation du projet et répartition des rôles. Discussion sur les idées de projet et choix final. Planification des prochaines étapes et organisation des réunions.
+* **KT** : Aménagement du GitHub et création du dépôt.
+* **EB** : Schéma de l'architecture du projet et rédaction du cahier des charges.
+* **AB** : Recherche sur les composants pour pouvoir les commander et les intégrer dans le projet.
+* **ML** : Présentation devant les évaluateurs et recherche des composants pour le projet.
 
 ### 2ème séance : 22/09/26
-* **KT** : 
-* **EB** : 
-* **AB** : 
-* **ML** : 
+* **KT** : Mise en place de la structure du code et des fichiers nécessaires. Recherche d'une base de données d'étoiles adaptée.
+* **EB** : Prise en main de la Raspberry Pi et discussion avec le sprofesseurs de l'utilité des composants, ce qui a mené à une mis à jour du schéma global du système. Rédaction des tâches à réaliser pour la prochaine séance.
+* **AB** : Notation du matériel nécessaire à la construction, téléchargement des fichiers d'imprimante 3D pour l'impression des pièces.
+* **ML** : Atelier technique pour voir les pièces disponibles qui sont notés sur le sheet.
 
 ### 3ème séance : 29/09/26
 * **KT** : 
