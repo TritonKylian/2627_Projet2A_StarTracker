@@ -1,5 +1,5 @@
 ## Journal de bord :
-<!-- format : nème séance : dd/mm/yy
+<!-- format : n-ème séance : dd/mm/yy
     KT : Kylian Triton
     EB : Emilie Bouche
     AB : Athénaïs Ballard
