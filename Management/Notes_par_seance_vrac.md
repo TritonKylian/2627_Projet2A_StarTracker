@@ -11,28 +11,26 @@ lien utile : https://wiki.openastrotech.com/OpenAstroTracker?fbclid=PARlRTSASfdw
 - repérer et suivre les étoiles ou constellations
 
 
-**notes discussion avecc les profs**
-pas de traitement d'image
+**Notes discussion avecc les profs**
+Pas de traitement d'image seulement le tracking photographique.
 
-juste tracking
+3 axes de rotation donc 3 moteurs, bien démultipliés pour être précis (X200 par ex, on veut environ 1milidegré donc environ 3.6 secondes d'arc.)
 
-3 axes de roation donc 3 moteurs, bien démultipliés pour être précis (X200 par ex, on veut environ 1milidegré)
+Asservissement en position et inclinatison (moteurs pas à pas et driver de moteur) voir partie Mécanique pour le détail des composants
 
-asservissement en position et inclinatison (moteurs pas à pas et driver de moteur)
+Moteur capable de tenir les 3-4Kg de l'appareil
 
-moteur puissant pour tenir les 3-4Kg de l'appareil
+connexion internet pour récupérer une base de données d'étoiles (utiliser une rasberry)
 
-connexion internet pour recuperer une base de données d'étaoiles (utiliser une rasberry)
+récupérer la position et l'inclination ( accéléromètre)
 
-recuperer la position et l'incclinison ( accéléromettrre)
-
-**si on a le temps** :
-recuperer la photo avec un cable usb
+**Si on a le temps** :
+récupérer la photo avec un cable usb
 
 ## objectifs :
-- faire la base méca surtout : recupere les bases sur intenret
-- plus important  c'est l'elec donc on est rapide et efficace sur la méca  
-- determiner quel couple/viteesse et precision on veut
+- faire la base mécanique surtout : récupérer les bases sur internet
+- plus important  c'est l'éléctronique donc on est rapide et efficace sur la mécanique pour pouvoir se concentrer sur l'électronique et le software.  
+- déterminer quel couple/vitesse et précision on veut
 
 ## Schéma global du système
 
@@ -64,9 +62,9 @@ lien slide : https://docs.google.com/presentation/d/1jDtzcRe_vpuc2h7Jv-1z3r2-y8F
 
 ### commentaires des profs : 
 - enlever le microcontrolleur car pas besoin d'être aussi précis, la rasberry peut envoyer les PWM aux driver directement.
-Explications : oui avec la rasberry on va avoir un "djiter" (jsp comment ça s'écrit) sur les PWM (une imprécisiion sur les fronts montants) mais on veut bouger nos moteurs à une fréquenc etellemnt lente que ça changera rien. 
+Explications : oui avec la rasberry on va avoir un "jitter" sur les PWM (une imprécision sur les fronts montants) mais on veut bouger nos moteurs à une fréquence très lente que ça ne changera rien. 
 
-- l'interface sur téléphone peut être une page web implémentée sur la rasberry
+- l'interface sur téléphone peut être une page web implémentée sur la Raspberry. On peut utiliser un framework web pour ça (ex : flask).
   
 *Nouveau diagramme* :
 <img width="1076" height="459" alt="image" src="https://github.com/user-attachments/assets/eb51de5c-801e-4fdb-a209-888a6ac2000d" />
