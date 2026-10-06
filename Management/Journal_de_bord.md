@@ -20,13 +20,13 @@
 
 ### 3ème séance : 29/09/26
 * **KT** : 
-* **EB** : 
+* **EB** : prise en main rapberry pi et config
 * **AB** : 
 * **ML** : 
 
 ### 4ème séance : 06/10/26
 * **KT** : 
-* **EB** : 
+* **EB** : rasberry : config, connexion en ssh. début de prise en min de django
 * **AB** : 
 * **ML** : 
 
