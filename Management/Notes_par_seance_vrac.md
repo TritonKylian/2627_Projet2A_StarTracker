@@ -77,4 +77,8 @@ Explications : oui avec la rasberry on va avoir un "jitter" sur les PWM (une imp
 -> Calcul de suivi sidéral + calcul de rotation des moteur pour orienter l'appareil photo => Kylian
 
 
-
+# Séance 4 6/10
+commentaires des profs pendant la soutenance :
+- faire l'app web avec django/javascript et python plutot que html (IA autorisées seulement si on comprend ce qu'elle fait)
+- les vis et moteurs : chercher dans les tiroirs de la salle de ppz
+- revue de schematic avec les profs à la prochaine séance
