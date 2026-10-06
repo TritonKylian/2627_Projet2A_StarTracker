@@ -21,6 +21,6 @@ Resolve-DnsName startracker -Type A
 
 # 3 . Connexion à la Raspberry Pi via SSH
 
-1. Le mot de passe est demandé lors de la première connexion. Entrez le mot de passe de l'utilisateur `starstracker` qui est configuré sur la Raspberry Pi.
+1. Le mot de passe est demandé lors de la première connexion. Entrez le mot de passe de l'utilisateur `startracker` qui est configuré sur la Raspberry Pi.
 2. Une fois connecté, vous pouvez exécuter des commandes sur la Raspberry Pi à distance depuis Visual Studio Code.
 3. Un dossier de travail est créé sur la Rasberry pour stocker les fichiers du projet. Vous pouvez naviguer dans ce dossier 'StarTracker' et ouvrir des fichiers pour les éditer directement depuis Visual Studio Code.
