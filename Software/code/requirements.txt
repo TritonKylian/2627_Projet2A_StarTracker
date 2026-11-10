@@ -1,0 +1,6 @@
+Django
+ephem
+redis
+rq
+
+# RPi.GPIO is provided by the system package python3-rpi-lgpio on Raspberry Pi 5.

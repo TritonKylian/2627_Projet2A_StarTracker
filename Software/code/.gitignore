@@ -1,0 +1,18 @@
+# Reprise d'un gitignore standard.
+
+# Environnements virtuels Python
+.venv/
+venv/
+ENV/
+
+# Configuration locale VS Code
+.vscode/
+
+# Fichiers de cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Fichiers système Windows / Linux
+.DS_Store
+Thumbs.db
