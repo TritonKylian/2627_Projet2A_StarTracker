@@ -1267,6 +1267,16 @@
 		)
 		(uuid "7ce1817c-9dc1-4a5b-8c28-3c72bda5fdc4")
 	)
+	(text "gpio rpi"
+		(exclude_from_sim no)
+		(at 77.724 91.948 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "73d20b43-d622-4400-939e-dfdee3f6465c")
+	)
 	(text "Bloc driver\n"
 		(exclude_from_sim no)
 		(at 69.85 52.07 0)
@@ -1276,12 +1286,6 @@
 			)
 		)
 		(uuid "9bc423fa-4b85-4c46-a87c-4562e9477226")
-	)
-	(junction
-		(at 81.28 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "084bc02f-2fbb-4d5a-9973-a8beb1635709")
 	)
 	(junction
 		(at 111.76 54.61)
@@ -1355,26 +1359,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 87.63) (xy 87.63 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19b11b12-8621-495b-8c61-cf35cbb7c675")
-	)
-	(wire
-		(pts
-			(xy 81.28 86.36) (xy 87.63 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f367a43-640f-4854-abaf-d0d94c0bb110")
-	)
-	(wire
-		(pts
 			(xy 102.87 60.96) (xy 102.87 54.61)
 		)
 		(stroke
@@ -1382,16 +1366,6 @@
 			(type default)
 		)
 		(uuid "238cf936-5bbc-4292-96ab-56cbf0fe7df0")
-	)
-	(wire
-		(pts
-			(xy 81.28 87.63) (xy 87.63 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "407c4759-a3c3-4e61-87ef-bb8cdc8acb01")
 	)
 	(wire
 		(pts
@@ -1452,26 +1426,6 @@
 			(type default)
 		)
 		(uuid "d4fb1506-88a8-40a1-bfe9-24c9aebee060")
-	)
-	(wire
-		(pts
-			(xy 74.93 86.36) (xy 81.28 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecc034b6-0741-4136-b06f-3ce17a7a6196")
-	)
-	(wire
-		(pts
-			(xy 81.28 86.36) (xy 81.28 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f71d446d-b927-4fc2-9869-4123fe37e4ee")
 	)
 	(wire
 		(pts
@@ -1540,6 +1494,28 @@
 		)
 		(uuid "5e41c40f-eeb6-4e92-a16a-ae65fe1c553f")
 	)
+	(hierarchical_label "MS1"
+		(shape input)
+		(at 87.63 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "99997219-2f3b-488e-a0ec-ce193d4c8288")
+	)
+	(hierarchical_label "MS2"
+		(shape input)
+		(at 87.63 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f6347df2-6c06-46a8-a07e-1eb41a74e255")
+	)
 	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 111.76 58.42 0)
@@ -1574,7 +1550,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 112.7252 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -1934,92 +1910,6 @@
 				)
 				(path "/ecde9d1e-d508-4429-baa2-a1799e5f232d/89a6be6e-a281-467e-8382-e46224ef22ba"
 					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 74.93 86.36 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b65df3d6-9f6d-41a7-8034-7599691f92ad")
-		(property "Reference" "#PWR024"
-			(at 74.93 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 74.93 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 74.93 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7e77b49e-49f4-4c52-8bec-e2e06bb773ea")
-		)
-		(instances
-			(project "pcb alim JACK"
-				(path "/ecde9d1e-d508-4429-baa2-a1799e5f232d/67ffab58-4ad6-4f8f-8ccd-3a7a1f21c317"
-					(reference "#PWR024")
-					(unit 1)
-				)
-				(path "/ecde9d1e-d508-4429-baa2-a1799e5f232d/6d6b63d4-e652-45b2-b793-18c45053ee5b"
-					(reference "#PWR034")
-					(unit 1)
-				)
-				(path "/ecde9d1e-d508-4429-baa2-a1799e5f232d/89a6be6e-a281-467e-8382-e46224ef22ba"
-					(reference "#PWR029")
 					(unit 1)
 				)
 			)
